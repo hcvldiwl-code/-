@@ -28,6 +28,7 @@ export default function RootLayout({
                 <ul className="flex space-x-6 text-sm font-medium">
                   <li><a href="/" className="hover:text-blue-600 transition-colors">홈</a></li>
                   <li><a href="/guestbook" className="hover:text-blue-600 transition-colors">방명록</a></li>
+                  <li><a href="/attendance" className="hover:text-blue-600 transition-colors">출석부</a></li>
                   {/* 여기에 새로운 네비게이션 아이템을 추가하세요 */}
                 </ul>
               </nav>
